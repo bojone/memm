@@ -1,2 +1,2 @@
-# memm
-Keras implementation of Maximum Entropy Markov Model
+# Maximum Entropy Markov Model
+Keras implementation of (Bidirectional Maximum Entropy Markov Model)
