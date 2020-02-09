@@ -14,7 +14,7 @@ def search_layer(inputs, name, exclude=None):
     if exclude is None:
         exclude = set()
 
-    if isinstance(inputs, keras.layers.Layer):
+    if isinstance(inputs, Layer):
         layer = inputs
     else:
         layer = inputs._keras_history[0]
